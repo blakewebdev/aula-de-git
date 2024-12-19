@@ -1,15 +1,20 @@
 @chatset "UTF-8";
 
 body {
-    width: 100vw;
     background-color: yellow;
-    margin: 0;
-    padding: 0;
 }
 
-.texto {
+.container {
     width: 100vw;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.texto, .soma {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto h1 {
@@ -22,4 +27,19 @@ body {
     color: #555;
     font-size: 40pt;
     text-align: center;
+}
+
+.soma h3 {
+    color: black;
+    font-size: 65pt;
+    text-align: center;
+}
+
+.soma button {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 60pt;
+    text-align: center;
+    margin: 0 36%;
 }
