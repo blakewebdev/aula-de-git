@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: yellow;
+    background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .container {
